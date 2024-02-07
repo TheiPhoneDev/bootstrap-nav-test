@@ -19,7 +19,7 @@
     padding: 0;
     margin: 0;
     display: inline-block;
-    background-color: var(--iris);
+    background-color: var(--moonstone);
 }
 
 main{
@@ -34,7 +34,7 @@ main{
    
         .navbar-expand-lg.navbar-vertical {
             width: var(--vertical-navbar-width);
-            border-right: 1px solid var(--moonstone);
+            border-right: 1px solid var(--iris);
             height: calc(100vh - var(--main-navbar-height));
             position: fixed;
         
