@@ -28,21 +28,17 @@ main{
 }
 
 @media (min-width: 992px) {
-    
-  
-
-   
         .navbar-expand-lg.navbar-vertical {
             width: var(--vertical-navbar-width);
             border-right: 1px solid var(--iris);
             height: calc(100vh - var(--main-navbar-height));
             position: fixed;
-        
+        }
     
         main {
             margin-left: calc(var(--vertical-navbar-width));
         }
-    }
+}
     
 
 }
