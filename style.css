@@ -1,9 +1,9 @@
 :root{
-    --licorice: #110B11;
-    --satin-sheen-gold: #B7990D;
-    --cambrige-blue: #8CADA7;
-    --crem: #f2f4cb;
-    --celadon: #A5D0A8;
+    --iris: #6642D1;
+    --french-gray: #CBCDD1;
+    --moonstone: #25BDD5;
+    --dodger-blue: #0095FF;
+    --pale-azure: #86D5FF;
 
     --main-navbar-height: 5rem;
     --vertical-navbar-width:15rem;
@@ -19,7 +19,7 @@
     padding: 0;
     margin: 0;
     display: inline-block;
-    background-color: var(--celadon);
+    background-color: var(--iris);
 }
 
 main{
@@ -34,7 +34,7 @@ main{
    
         .navbar-expand-lg.navbar-vertical {
             width: var(--vertical-navbar-width);
-            border-right: 1px solid var(--licorice);
+            border-right: 1px solid var(--moonstone);
             height: calc(100vh - var(--main-navbar-height));
             position: fixed;
         
