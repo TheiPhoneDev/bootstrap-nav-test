@@ -4,7 +4,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Homepage</title>
 
     <link rel="stylesheet" href="style.css">
     <link 
@@ -13,53 +13,50 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
         crossorigin="anonymous"
     />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
 </head>
 
 <body>
 
     <!--Navbar orizzontale-->
-    <nav class="navbar navbar-expand-lg bg-warning" id="mainNavbar">
+   <header>
+     <nav class="navbar navbar-expand-lg bg-warning" id="mainNavbar">
 
-        <div class="container-fluid">
+         <div class="container-fluid">
 
-            <button 
-                class="navbar-toggler" 
-                type="button" 
-                data-bs-toggle="collapse" 
-                data-bs-target="#verticalNavbar"
-                aria-controls="navbarNav" 
-                aria-expanded="false" 
-                aria-label="Toggle navigation"
-            >
-                <span class="navbar-toggler-icon"></span>    
-          </button>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#verticalNavbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 
-          <a class="navbar-brand" href="#">Titolo</a>
+           <a class="navbar-brand" href="#">Titolo</a>
 
-          <div id="navbarNav">
-            
-                <ul class="navbar-nav flex-row">
 
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
+                 <ul class="navbar-nav flex-row">
 
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
+                     <li class="nav-item" onclick="testButton1()">
+                           <a class="nav-link mx-2 d-flex flex-column" href="#">
+                             <i class="bi bi-search mx-auto"></i>
+                             <span>Cerca</span>
+                           </a>
+                     </li>
 
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
+                     <li class="nav-item" onclick="testButton2()">
+                       <a class="nav-link mx-2 d-flex flex-column" href="#">
+                         <i class="bi bi-envelope-heart mx-auto"></i>
+                         <span>Wishlist</span>
+                       </a>
+                     </li>
 
-                </ul>
+                     <li class="nav-item" onclick="testButton3()">
+                       <a class="nav-link mx-2 d-flex flex-column" href="#">
+                         <i class="bi bi-door-open mx-auto"></i>
+                         <span>Accedi</span>
+                       </a>
+                     </li>
 
-          </div>
+                 </ul>
 
-        </div> <!--container-fluid-->
-
-    </nav>
+           </div>
+     </nav>
 
 
     <!--navbar verticale-->
@@ -71,36 +68,44 @@
 
             <ul class="navbar-nav flex-column">
 
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Home</a>
+              <li class="nav-item my-2">
+                <a class="nav-link active" href="index.html">Home</a>
               </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contatti</a>
+              <li class="nav-item my-2">
+                <a class="nav-link" href="shopping-list.html">Shopping List</a>
               </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+              <li class="nav-item my-2">
+                <a class="nav-link" href="#">Vedremo...</a>
               </li>
 
             </ul>
 
           </div>
 
-        </div> <!--container-fluid-->
+        </div>
 
     </nav>
-
+</header>
 
    
     <main>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, quibusdam minima! Maiores, iusto, quibusdam nobis voluptas excepturi modi blanditiis sapiente possimus explicabo atque consequatur placeat. Dignissimos natus asperiores aliquid dolores!
-            Eaque, facilis amet! Labore eius deserunt odit, at aut quam ea eligendi illum animi corporis tempora maxime sed error impedit qui neque reiciendis, odio quod incidunt dignissimos veritatis architecto ratione.
-            Odio tenetur, expedita eius dignissimos ad neque a quos repellat cum ratione placeat officia culpa iste quasi nulla non. Numquam excepturi commodi ex ipsa nobis iste deleniti reprehenderit fugiat odit.
-            Error beatae eum, accusamus ducimus non nobis numquam repudiandae reiciendis enim temporibus facilis, voluptatibus atque nostrum a quia provident aut, illo nulla commodi. Veritatis inventore, magni veniam sit fugit exercitationem!
-            Aut accusamus vero magni placeat libero accusantium numquam officia neque totam. Natus, dicta delectus? Libero sequi illo debitis culpa assumenda minima reprehenderit veniam illum quidem. Minima fugiat dolore deleniti veritatis!
-        </p>
+       <section>
+         <p>
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+         </p>
+       </section>
+      <section>
+         <p>
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+         </p>
+       </section>
+      <section>
+         <p>
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+         </p>
+       </section>
     </main>
 
     
@@ -113,4 +118,51 @@
     crossorigin="anonymous">
 </script>
 
+
+  <script>
+
+    function testButton1() {
+      console.log("Test ciclo while, print numeri da 1 a 100");
+      let i=1;
+
+      while(i<=100) {
+        console.log(i);
+        i++;
+      }
+
+      console.log("-------------------------------------------");
+
+    }
+
+
+
+
+
+    function testButton2() {
+      console.log("Test ciclo for, print numeri da 1 a 100");
+      for(let i=1;i<=100;i++) {
+        console.log(i);
+      }
+
+      console.log("-------------------------------------------");
+    }
+
+
+
+
+    function testButton3() {
+      console.log("Test console log, error e warn, messaggio da printare => nome e cognome");
+      console.log("-------------------------------------------");
+      let nome = "Pietro";
+      let cognome = "Gambatesa";
+      let stringToPrint = nome+" "+cognome;
+      console.log(stringToPrint);
+      console.error(stringToPrint);
+      console.warn(stringToPrint);
+    }
+
+  </script>
+
+
 </html>
+
