@@ -1,9 +1,15 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+
 :root{
     --iris: #6642D1;
     --french-gray: #CBCDD1;
     --moonstone: #25BDD5;
     --dodger-blue: #0095FF;
     --pale-azure: #86D5FF;
+    --rosso: #FF0000;
+    --white: #FFFFFF;
 
     --main-navbar-height: 5rem;
     --vertical-navbar-width:15rem;
@@ -19,26 +25,52 @@
     padding: 0;
     margin: 0;
     display: inline-block;
-    background-color: var(--moonstone);
+    background-color: var(--dodger-blue);
+}
+
+.navbar-vertical a.nav-link {
+  color: var(--white);
 }
 
 main{
     padding: 2rem;
-    position: relative;
+    
 }
 
 @media (min-width: 992px) {
-        .navbar-expand-lg.navbar-vertical {
-            width: var(--vertical-navbar-width);
-            border-right: 1px solid var(--iris);
-            height: calc(100vh - var(--main-navbar-height));
-            position: fixed;
-        }
-    
-        main {
-            margin-left: calc(var(--vertical-navbar-width));
-        }
+  .navbar.navbar-expand-lg.navbar-vertical {
+      width: var(--vertical-navbar-width);
+      border-right: 1px solid var(--iris);
+      height: calc(100vh - var(--main-navbar-height));
+      
+  }
+
+  main {
+      margin-left: calc(var(--vertical-navbar-width));
+  }
+
+  .navbar.navbar-expand-lg.navbar-vertical li:hover {
+    background-color: var(--pale-azure);
+    border-radius: 0.5rem;
+    transition: all 0.5s;
+  }
 }
     
 
+section {
+  margin-top: 5rem;
+  height: 100vh;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+
+.cestino {
+  color: var(--rosso);
+  cursor: pointer;
+}
 }
