@@ -36,3 +36,4 @@
       console.log(stringToPrint);
       console.error(stringToPrint);
       console.warn(stringToPrint);
+    }
